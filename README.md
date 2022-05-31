@@ -10,3 +10,5 @@ This project is about 40 projects that a web developer at least once in his life
 
 [NOTE APP](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Note%20App)
 
+[STOPWATCH APP](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Stopwatch%20App)
+
