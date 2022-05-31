@@ -6,3 +6,5 @@ This project is about 40 projects that a web developer at least once in his life
 
 [QUIZ APP](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Quiz%20App)
 
+[ROCK PAPER SCISSORS](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Rock-Paper-Scissors)
+
