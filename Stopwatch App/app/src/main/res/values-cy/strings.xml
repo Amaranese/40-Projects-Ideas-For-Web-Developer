@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Simple Clock</string>
+    <string name="app_launcher_name">Cloc</string>
+    <string name="time_zone">Cylchfa amser</string>
+    <string name="vibrate">Dirgrynu</string>
+    <string name="label">Label</string>
+    <string name="no_days_selected">Dim diwrnodau wedi\'u dewis</string>
+    <string name="timer">Amserydd</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="lap">Lap</string>
+    <string name="stopwatch_stopped">Cafodd y stopwats ei stopio</string>
+    <string name="timer_stopped">Cafodd yr amserydd ei stopio</string>
+    <string name="max_reminder_duration">Hyd atgoffa hiraf</string>
+    <string name="time_expired">Amser ar ben</string>
+    <string name="clock_and_date">Cloc a dyddiad</string>
+    <string name="use_text_shadow">Defnyddio cysgod testun</string>
+    <string name="swipe_right_to_dismiss">Llithro i\'r dde i\'w ddiffodd neu i\'r chwith i\'w oedi am ychydig.</string>
+    <string name="sort_by_creation_order">Creation order</string>
+    <string name="sort_by_alarm_time">Alarm time</string>
+    <string name="analogue_clock">Analogue clock</string>
+    <string name="digital_clock">Digital clock</string>
+
+    <!--Timer-->
+    <string name="timers_notification_msg">Timers are running</string>
+    <string name="timer_single_notification_label_msg">Timer for %s is running</string>
+    <string name="new_timer">New Timer</string>
+
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d timer is running</item>
+        <item quantity="two">%d timers are running</item>
+        <item quantity="few">%d timers are running</item>
+        <item quantity="many">%d timers are running</item>
+        <item quantity="other">%d timers are running</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="clock_tab">Tab cloc</string>
+    <string name="alarm_tab">Tab larwm</string>
+    <string name="stopwatch_tab">Tab stopwats</string>
+    <string name="timer_tab">Tab amserydd</string>
+    <string name="show_seconds">Dangos eiliadau</string>
+    <string name="increase_volume_gradually">Cynyddu uchder sain yn raddol</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">Sut gallaf newid trefn lapiau yn y tab stopwats?</string>
+    <string name="faq_1_text">Clifia ar unrhyw un o\'r colofnau. Mi fydd hynny\'n ail-drefnu\'r lapiau yn ôl y golofn honno. Gyda chliciau ychwanegol, bydd y drefn yn toglo rhwng esgynnol a disgynnol.</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Clock - A flexible multifunctional app</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Cyfuniad o gloc, lawrwm, stopwats ac amserydd.</string>
+    <string name="app_long_description">
+        Mae gan yr ap hwn nifer o swyddogaethau yn ymwneud ag amseru.
+
+        Yn y cloc, gellir dangos amseroedd yn rhannau eraill o\'r byd neu ddefnyddio teclyn cloc syml y mae modd ei addasu. Gellir addasu lliw y teclyn a lliw ac alffa\'r cefndir.
+
+        Mae\'r larwm yn cynnwys yr holl nodweddion i\'w disgwyl, megis dewis diwrnod, toglo dirgrynu, dewis tôn canu, hepian neu oedi, ac ychwanegu label dy hun.
+
+        Gyda\'r stopwats mae\'n bosib mesur cyfnodau hirach o amser neu lapiau unigol. Gellir trefnu\'r lapiau yn ôl amser ac mae\'n cynnwys y dewis i ddirgrynu wrth bwyso botymau hefyd, jyst i ti wybod yn bendant bod y botwm wedi\'i wasgu, hyd yn oed pan na fedri edrych ar y ddyfais.
+
+        Gellir osod amserydd yn hawdd er mwyn cael gwybod am ryw ddigwyddiad. Mae\'n bosib addasu\'r tôn canu neu doglo dirgrynu.
+
+        Mae nodweddion ychwanegol yn cynnwys, er enghraifft, rhwystro\'r ddyfais rhag cysgu tra bod yr ap ar agor yn y blaen.
+
+        Gyda dim hysbysebion a dim eisiau unrhyw ganiatâd di-angen. Mae\'n gyfan gwbl god agored a gellir addasu lliwiau\'r ap.
+
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

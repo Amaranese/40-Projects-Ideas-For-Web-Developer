@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">简易时钟</string>
+    <string name="app_launcher_name">时钟</string>
+    <string name="time_zone">时区</string>
+    <string name="vibrate">震动</string>
+    <string name="label">标签</string>
+    <string name="no_days_selected">未选择哪一天</string>
+    <string name="timer">定时器</string>
+    <string name="stopwatch">秒表</string>
+    <string name="lap">分段</string>
+    <string name="stopwatch_stopped">秒表已停止</string>
+    <string name="timer_stopped">定时器已停止</string>
+    <string name="max_reminder_duration">最长提醒持续时间</string>
+    <string name="time_expired">时间结束</string>
+    <string name="clock_and_date">时钟和日期</string>
+    <string name="use_text_shadow">使用文字阴影</string>
+    <string name="swipe_right_to_dismiss">右滑关闭，或者左滑贪睡。</string>
+    <string name="sort_by_creation_order">创建顺序</string>
+    <string name="sort_by_alarm_time">闹铃时间</string>
+    <string name="analogue_clock">指针式时钟</string>
+    <string name="digital_clock">数字时钟</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">计时器正在运行</string>
+    <string name="timer_single_notification_label_msg">%s 的计时器正在运行</string>
+    <string name="new_timer">新建计时器</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="other">%d 个计时器正在运行</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">时钟页面</string>
+    <string name="alarm_tab">闹钟页面</string>
+    <string name="stopwatch_tab">秒表页面</string>
+    <string name="timer_tab">定时器页面</string>
+    <string name="show_seconds">显示秒数</string>
+    <string name="increase_volume_gradually">音量渐增</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">秒表页面分段的排序如何更改?</string>
+    <string name="faq_1_text">只要点击任一栏位，就会依据选定的栏位做排序。再多点一下，还能切换递增或者递减顺序。</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">简易时钟 - 一个灵活的多功能应用程序</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">结合了时钟、闹钟、秒表和定时器。</string>
+    <string name="app_long_description">
+        这应用程序拥有多个跟时间相关的功能。
+
+        您可以在时钟显示其他地区的时间，或者使用简单却能自订的时钟小工具。小工具的字体颜色能夠自订，背景颜色和透明度也都可以。
+
+        闹钟包含所有预期的功能，例如选择哪一天、震动切换、铃声选择、贪睡或添加自订标签。
+
+        使用秒表，您能够轻易测量较长的时间或个别分段。您可以依分段时间來排序分段，也有可选的按钮震动的设定，让您即使在无法看设备的時候，也可以适时按下按钮了。
+
+        您能轻易设定定时器來提醒一些活动，还能改变它的铃声或切换震动。
+
+        附加功能包含当程序在前台使用时防止手机进入休眠。
+
+        不包含广告及非必要的权限，而且完全开放源代码，并提供自定义颜色。
+		
+        <b>于此查看简易工具系列全套:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

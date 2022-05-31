@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Clock</string>
+    <string name="app_launcher_name">Reloxo</string>
+    <string name="time_zone">Franxa horario</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="label">Etiqueta</string>
+    <string name="no_days_selected">Ningún día seleccionado</string>
+    <string name="timer">Temporizador</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="lap">Volta</string>
+    <string name="stopwatch_stopped">Cronómetro parado</string>
+    <string name="timer_stopped">Temporizador parado</string>
+    <string name="max_reminder_duration">Duración máxima do aviso</string>
+    <string name="time_expired">Tempo vencido</string>
+    <string name="clock_and_date">Reloxo e data</string>
+    <string name="use_text_shadow">Utilizar sombras</string>
+    <string name="swipe_right_to_dismiss">Deslice á dereita para descartar e á esquerda para suspender.</string>
+    <string name="sort_by_creation_order">Creation order</string>
+    <string name="sort_by_alarm_time">Alarm time</string>
+    <string name="analogue_clock">Analogue clock</string>
+    <string name="digital_clock">Digital clock</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Timers are running</string>
+    <string name="timer_single_notification_label_msg">Timer for %s is running</string>
+    <string name="new_timer">New Timer</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d timer is running</item>
+        <item quantity="other">%d timers are running</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Reloxo</string>
+    <string name="alarm_tab">Alarma</string>
+    <string name="stopwatch_tab">Cronómetro</string>
+    <string name="timer_tab">Temporizador</string>
+    <string name="show_seconds">Mostrar segundos</string>
+    <string name="increase_volume_gradually">Aumentar volume gradualmente</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Como podo cambiar a clasificación das voltas na guía Cronómetro?</string>
+    <string name="faq_1_text">Just click on any of the columns, that will make the laps be sorted by the given column. With additional clicks you can toggle between ascending and descending sorting.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Clock - Aplicativo multifuncional</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Unha combinación de reloxo, alarma, cronómetro e temporizador.</string>
+    <string name="app_long_description">
+        Un aplicativo con diversas accións relacionadas coa data e a hora.
+
+        No reloxo, podes activar a exhibición de horarios noutras franxas horarias ou usar o widget de reloxo simple, pero personalizable. A cor do texto do widget e a cor e a transparencia (escala de letras) do fondo pode ser personalizada.
+
+        A alarma contén todas as funcións esperadas como a selección do día, alternancia da vibración, seleccionar de cando tocar, pospoñer ou engadir un rótulo personalizado.
+
+        Co cronómetro, podes medir facilmente un longo período de tempo ou voltas individuais. Podes clasificar as voltas polo tempo da volta – esa funcionalidade tamén contén vibracións opcionais ao premer os botóns, só para informar que o botón se premeu, aínda que non se poida ver o dispositivo.
+
+        Podes configurar facilmente unha alarma para notificar algún evento. Ademais disto, podes cambiar cando toca ou alternar as vibracións.
+
+        Outras funcionalidades inclúen, por exemplo, impedir que o dispositivo hiberne mentres o aplicativo estea en primeiro plano.
+
+        Non contén anuncios nin permisos innecesarios. Dispón dun tema escuro e é totalmente de código aberto.
+
+        <b>Visita a páxina a través desta ligazón:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Semplice Orologio</string>
+    <string name="app_launcher_name">Orologio</string>
+    <string name="time_zone">Fuso orario</string>
+    <string name="vibrate">Vibrazione</string>
+    <string name="label">Etichetta</string>
+    <string name="no_days_selected">Nessun giorno selezionato</string>
+    <string name="timer">Contaminuti</string>
+    <string name="stopwatch">Cronometro</string>
+    <string name="lap">Parziale</string>
+    <string name="stopwatch_stopped">Il cronometro è stato fermato</string>
+    <string name="timer_stopped">Il contaminuti è stato fermato</string>
+    <string name="max_reminder_duration">Durata della suoneria</string>
+    <string name="time_expired">Tempo scaduto</string>
+    <string name="clock_and_date">Ora e data</string>
+    <string name="use_text_shadow">Abilita l\'ombreggiatura del testo</string>
+    <string name="swipe_right_to_dismiss">Scorri a destra per rimuovere, a sinistra per rinviare.</string>
+    <string name="sort_by_creation_order">Ordine di creazione</string>
+    <string name="sort_by_alarm_time">Ora dell\'allarme</string>
+    <string name="analogue_clock">Orologio analogico</string>
+    <string name="digital_clock">Orologio digitale</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">I contaminuti sono in funzione</string>
+    <string name="timer_single_notification_label_msg">Il contaminuti per %s è in funzione</string>
+    <string name="new_timer">Nuovo contaminuti</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d contaminuti è in funzione</item>
+        <item quantity="other">%d contaminuti sono in funzione</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Scheda orologio</string>
+    <string name="alarm_tab">Scheda sveglia</string>
+    <string name="stopwatch_tab">Scheda cronometro</string>
+    <string name="timer_tab">Scheda contaminuti</string>
+    <string name="show_seconds">Mostra secondi</string>
+    <string name="increase_volume_gradually">Incrementa il volume gradualmente</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Come posso cambiare l\'ordinamento dei giri nel cronometro?</string>
+    <string name="faq_1_text">Premendo una volta su qualsiasi colonna, i giri verranno ordinati per tale colonna. Premendo nuovamente si potrà cambiare il tipo di ordinamento, ascendente o discendente.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Orologio semplice: un\'app multifunzionale flessibile</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Un\'unione di orologio, sveglia, cronometro e timer.</string>
+    <string name="app_long_description">
+        L\'app ha diverse funzioni per la gestione del tempo.
+
+        Si può controllare l\'orario di altri fusi orari o usare il widget orologio, semplice ma personalizzabile. Tale widget può essere personalizzato come si vuole, sia nei colori che nella trasparenza dello sfondo.
+
+        La sveglia dispone di tutte le funzioni essenziali. Si può selezionare il giorno, attivare la vibrazione, scegliere la suoneria, rinviare la sveglia o aggiungere un\'etichetta.
+
+        Con il cronometro si può misurare facilmente un lungo periodo di tempo, o singoli tempi parziali ordinabili. Si può attivare la vibrazione dei tasti per sapere se un pulsante è stato premuto, utile quando non si può guardare il dispositivo.
+
+        Fra le altre funzionalità incluse, c\'è la possibilità di prevenire che il dispositivi vada in standby mentre l\'applicazione è in primo piano.
+
+        L\'applicazione non contiene pubblicità o permessi non necessari; è completamente opensource e la si può personalizzare con i propri colori preferiti.
+        
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

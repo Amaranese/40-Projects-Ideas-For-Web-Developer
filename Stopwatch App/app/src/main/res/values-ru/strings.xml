@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Clock</string>
+    <string name="app_launcher_name">Часы</string>
+    <string name="time_zone">Часовой пояс</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="label">Метка</string>
+    <string name="no_days_selected">Дни не выбраны</string>
+    <string name="timer">Таймер</string>
+    <string name="stopwatch">Секундомер</string>
+    <string name="lap">Круг</string>
+    <string name="stopwatch_stopped">Секундомер остановлен</string>
+    <string name="timer_stopped">Таймер остановлен</string>
+    <string name="max_reminder_duration">Максимальная длительность напоминания</string>
+    <string name="time_expired">Время вышло</string>
+    <string name="clock_and_date">Часы и дата</string>
+    <string name="use_text_shadow">Использовать затенение текста</string>
+    <string name="swipe_right_to_dismiss">Смахивание вправо — скрыть, влево — отложить.</string>
+    <string name="sort_by_creation_order">Порядок создания</string>
+    <string name="sort_by_alarm_time">Время будильника</string>
+    <string name="analogue_clock">Аналоговые часы</string>
+    <string name="digital_clock">Цифровые часы</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Таймеры запущены</string>
+    <string name="timer_single_notification_label_msg">Таймер для %s запущен</string>
+    <string name="new_timer">Новый таймер</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d таймер запущен</item>
+        <item quantity="few">%d таймера запущены</item>
+        <item quantity="many">%d таймеров запущено</item>
+        <item quantity="other">%d таймеров запущено</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Часы</string>
+    <string name="alarm_tab">Будильник</string>
+    <string name="stopwatch_tab">Секундомер</string>
+    <string name="timer_tab">Таймер</string>
+    <string name="show_seconds">Показывать секунды</string>
+    <string name="increase_volume_gradually">Увеличивать громкость постепенно</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Как я могу изменить сортировку кругов во вкладке секундомера?</string>
+    <string name="faq_1_text">Просто нажмите на любую из колонок, и круги отсортируются по этой колонке. Дополнительными нажатиями можно переключаться между сортировкой по возрастанию и по убыванию.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Clock - многофункциональное приложение</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Совмещает в себе часы, будильник, секундомер и таймер.</string>
+    <string name="app_long_description">
+        The app has multiple functions related to timing.
+
+        At the clock you can enable displaying times from other timezones, or use the simple, but customizable clock widget. The text color of the widget can be customized, as well as the color and the alpha of the background.
+
+        The alarm contains all the expected features as day selecting, vibration toggling, ringtone selecting, snooze or adding a custom label.
+
+        With the stopwatch you can easily measure a longer period of time, or individual laps. You can sort the laps by lap time, it contains optional vibrations on button presses too, just to let you know that the button was pressed, even if you cannot look at the device.
+
+        You can easily setup a timer to be notified of some event. You can both change its ringtone, or toggle vibrations.
+
+        Additional features include for example preventing the device from falling asleep while the app is in foreground.
+
+        Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schlichte Uhr</string>
+    <string name="app_launcher_name">Uhr</string>
+    <string name="time_zone">Zeitzone</string>
+    <string name="vibrate">Vibration</string>
+    <string name="label">Label</string>
+    <string name="no_days_selected">Keine Tage ausgewählt</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stoppuhr</string>
+    <string name="lap">Runde</string>
+    <string name="stopwatch_stopped">Die Stoppuhr wurde angehalten</string>
+    <string name="timer_stopped">Der Timer wurde angehalten</string>
+    <string name="max_reminder_duration">Maximale Zeitdauer der Erinnerungsfunktion</string>
+    <string name="time_expired">Zeit abgelaufen</string>
+    <string name="clock_and_date">Uhrzeit und Datum</string>
+    <string name="use_text_shadow">Text mit Schlagschatten</string>
+    <string name="swipe_right_to_dismiss">Nach rechts wischen um auszuschalten, nach links um zu schlummern.</string>
+    <string name="sort_by_creation_order">Erstellungsreihenfolge</string>
+    <string name="sort_by_alarm_time">Alarmzeit</string>
+    <string name="analogue_clock">Analoge Uhr</string>
+    <string name="digital_clock">Digitale Uhr</string>
+    <!--Timer-->
+    <string name="timers_notification_msg">Die Timer laufen</string>
+    <string name="timer_single_notification_label_msg">Timer für %s läuft</string>
+    <string name="new_timer">Neuer Timer</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d Timer wird ausgeführt</item>
+        <item quantity="other">%d Timer werden ausgeführt</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="clock_tab">Uhr</string>
+    <string name="alarm_tab">Wecker</string>
+    <string name="stopwatch_tab">Stoppuhr</string>
+    <string name="timer_tab">Timer</string>
+    <string name="show_seconds">Sekunden anzeigen</string>
+    <string name="increase_volume_gradually">Ansteigende Lautstärke</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Wie kann die Sortierung der Laschen der Stoppuhr geändert werden?</string>
+    <string name="faq_1_text">Einfach auf eine der Spalten klicken, das wird die Sortierung entsprechend der Spalte anpassen. Weitere Klicks schalten zwischen auf- und absteigender Sortierung um.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Schlichte Uhr – Eine flexible Multifunktionsanwendung</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Die Kombination einer Uhr, eines Alarms, einer Stoppuhr und eines Timers.</string>
+    <string name="app_long_description"> Diese Anwendung hat zahlreiche Zeitfunktionalitäten. Auf der Uhr können Sie die Anzeige von Zeiten aus anderen Zeitzonen aktivieren oder das einfache, aber anpassbare Uhr-Widget verwenden. Die Textfarbe des Widgets kann angepasst werden, sowie Farbe und Transparenz des Hintergrunds. Der Alarm enthält alle erwarteten Funktionen wie Tagesauswahl, Vibrationsumschaltung, Klingeltonauswahl, Schlummerfunktion oder Hinzufügen eines benutzerdefinierten Labels. Mit der Stoppuhr können Sie einfach einen längeren Zeitraum oder einzelne Runden messen. Sie können die Runden nach Rundenzeiten sortieren. Optional können Sie die Vibration für den Knopfdruck aktivieren, der Sie wissen lässt, dass die Taste gedrückt wurde, auch wenn Sie das Gerät gerade nicht betrachten können. Sie können einen Timer einrichten, der über ein Ereignis informiert. Sie können den Klingelton ändern oder die Vibration umschalten. Zusätzliche Funktionen umfassen beispielsweise das Verhindern des Einschlafens des Geräts, während sich die Anwendung im Vordergrund befindet oder die Anpassung aller verwendeten Farben. Die Anwendung beinhaltet keine Werbung oder unnötige Berechtigungen und ist komplett quelloffen. <b>Entdecke die gesamte Serie an schlichten Anwendungen hier:</b> https://www.simplemobiletools.com <b>Facebook:</b> https://www.facebook.com/simplemobiletools <b>Reddit:</b> https://www.reddit.com/r/SimpleMobileTools </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

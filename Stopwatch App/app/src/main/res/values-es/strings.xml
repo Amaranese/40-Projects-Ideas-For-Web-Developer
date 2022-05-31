@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Simple Clock</string>
+    <string name="app_launcher_name">Reloj</string>
+    <string name="time_zone">Zona horaria</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="label">Etiqueta</string>
+    <string name="no_days_selected">Ningún día seleccionado</string>
+    <string name="timer">Temporizador</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="lap">Vuelta</string>
+    <string name="stopwatch_stopped">El cronómetro s eha detenido</string>
+    <string name="timer_stopped">El temporizador se ha detenido</string>
+    <string name="max_reminder_duration">Máxima duración de recordatorio</string>
+    <string name="time_expired">Tiempo terminado</string>
+    <string name="clock_and_date">Fecha y hora</string>
+    <string name="use_text_shadow">Usar sombra de texto</string>
+    <string name="swipe_right_to_dismiss">Desliza a la derecha para descartar, o a la izquierda para posponer.</string>
+    <string name="sort_by_creation_order">Creation order</string>
+    <string name="sort_by_alarm_time">Alarm time</string>
+    <string name="analogue_clock">Analogue clock</string>
+    <string name="digital_clock">Digital clock</string>
+
+    <!--Timer-->
+    <string name="timers_notification_msg">Timers are running</string>
+    <string name="timer_single_notification_label_msg">Timer for %s is running</string>
+    <string name="new_timer">New Timer</string>
+
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d timer is running</item>
+        <item quantity="other">%d timers are running</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="clock_tab">Pestaña de reloj</string>
+    <string name="alarm_tab">Pestaña de alarma</string>
+    <string name="stopwatch_tab">Pestaña de cronómetro</string>
+    <string name="timer_tab">Pestaña de temporizador</string>
+    <string name="show_seconds">Mostrar segundos</string>
+    <string name="increase_volume_gradually">Aumentar volumen gradualmente</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">¿Cómo puedo cambiar el orden de las vueltas en la pestaña de cronómetro?</string>
+    <string name="faq_1_text">Solo toca cualquiera de las columnas, eso hará que las vueltas sean ordenados por la columna seleccionada. Con toques adicionales, puedes cambiar entre ordenar ascendente o descendentemente.</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Clock - Una app multifuncional</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Una combinación de reloj, alarma, temporizador y cronómetro</string>
+    <string name="app_long_description">
+        Esta aplicación tiene multiples funciones relacionadas al tiempo.
+
+        En el reloj, puedes activar el mostrar horas de otras zonas horarias, o usar el simple, pero personalizable widget de reloj. El color de texto de widget puede ser personalizado, así como el color y transparencia del fondo.
+
+        La alarma contiene todas las características esperadas como seleccionar el día, alternación de la vibración, selección de tono, posponer o añadir una etiqueta personalizada.
+
+        Con el cronómetro, puedes fácilmente medir un largo periodo de tiempo, o vueltas individuales. Puedes ordenar als vueltas por tiempo de vuelta, Contiene vibraciones opcionales al presionar el botón también, para ahcerte saber que el botón fue presionado, incluso si no estás viendo el dispositivo.
+
+        Puedes fácilmente configurar un temporizador para notificarte de algún evento. Puedes cambiar su tono o vibración.
+
+        Características adicionales incluyen, por ejemplo, evitar que el dispositivo se bloquee mientras la aplicación esté en primer plano.
+
+        No contiene anuncios o permisos innecesarios. Es completamente de código abierto, provee colores personalizables.
+
+        <b>Mira la suite completa de herramientas Simples aquí:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
