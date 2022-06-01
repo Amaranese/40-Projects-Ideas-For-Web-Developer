@@ -1,0 +1,144 @@
+.edit-stage {
+  position: absolute;
+  width: 100%;
+  top: 16px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: ~"calc(100% - 16px)";
+  overflow-x: hidden;
+  overflow-y: scroll;
+  cursor: pointer;
+  transition: width .15s @ease-in-out, max-height .15s @ease-in-out, top .15s @ease-in-out;
+  .mouse-catcher {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    box-sizing: content-box;
+    >div {
+      position: absolute;
+    }
+    .hover {
+      border: 1px dashed @edit-mouse-catcher-hover;
+      background: fade(@edit-mouse-catcher-hover, 10);
+    }
+    .select {
+      border: 2px solid @primary-color;
+      position: relative;
+      z-index: 100;
+      * {
+        pointer-events: auto;
+      }
+    }
+    .ant-btn-group {
+      position: absolute;
+      top: -26px;
+      right: -2px;
+      display: flex;
+      > .ant-btn {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        line-height: 24px;
+      }
+      &.inside {
+        top: 0;
+        >.ant-btn {
+         border-radius: 0;
+         &:first-child {
+          border-bottom-left-radius: 4px;
+        }
+        }
+      }
+      &.bottom {
+        top: 100%;
+        > * {
+          border-radius: 0;
+          &:last-child {
+            border-bottom-right-radius: 4px;
+          }
+          &:first-child {
+            border-bottom-left-radius: 4px;
+          }
+        }
+        > div {
+          overflow: hidden;
+        }
+      }
+    }
+    .edit-text-wrapper {
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      margin: 0;
+      width: ~"calc(100% + 4px)";
+      height: ~"calc(100% + 4px)";
+      max-width: none;
+      max-height: none;
+      -webkit-text-fill-color: inherit;
+      >div {
+        height: 100%;
+        width: 100%;
+        min-height: auto;
+        outline: none;
+      }
+    }
+  }
+  .overlay {
+    overflow: hidden;
+    &-elem {
+      position: relative;
+      >div {
+        transition: opacity .3s @ease-out;
+      }
+      &:hover {
+        >div {
+          opacity: 1;
+        }
+      }
+    }
+    &.drag {
+      .overlay-elem {
+        >div {
+          opacity: 0;
+        }
+      }
+    }
+    .drag-hints {
+      height: 16px;
+      font-size: 12px;
+      line-height: 16px;
+      background: fade(@primary-color, 55);
+      text-align: center;
+      opacity: 0;
+      color: #fff;
+      > * {
+        pointer-events: none;
+      }
+    }
+    .func-wrapper {
+      width: 24px;
+      height: 84px;
+      border-radius: 4px 0 0 4px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      text-align: center;
+      overflow: hidden;
+      opacity: 0;
+      z-index: 100;
+      >.ant-btn {
+        line-height: 28px;
+        height: 28px;
+        width: 24px;
+        border-radius: 0;
+        padding: 0;
+      }
+    }
+  }
+}
