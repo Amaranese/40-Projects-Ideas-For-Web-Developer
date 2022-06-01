@@ -1,0 +1,104 @@
+@prefixCls: ant-collapse;
+.@{editorList} {
+  > .tab-scroll > .@{prefixCls} > .@{prefixCls}-item > .@{prefixCls}-header {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .@{prefixCls} {
+    background-color: @bgColor;
+    border-radius: 0;
+    color: @edit-list-text-color;
+    border: none;
+    border-bottom: 1px solid #000;
+    &.collapse-style-list > .ant-collapse-item {
+
+      > .ant-collapse-content {
+        padding: 0;
+        & > .ant-collapse-content-box {
+          margin-top: 8px;
+          margin-bottom: 0;
+        }
+      }
+    }
+    >.@{prefixCls}-item {
+      border-top: 1px solid #000;
+      border-bottom: none;
+      &:first-child {
+        border-top: none;
+      }
+      >.@{prefixCls}-header {
+        height: 32px;
+        line-height: 32px;
+        text-indent: 10px;
+        font-size: 14px;
+        color: @edit-text-color;
+        padding: 0 0 0 12px;
+        cursor: pointer;
+        position: relative;
+        font-weight: normal;
+        border-bottom: 1px solid transparent;
+        transition: border .3s @ease-in-out;
+        .@{prefixCls}-arrow {
+          display: inline-block;
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          left: auto;
+          svg {
+            display: none;
+          }
+          &:after,
+          &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 6px;
+            height: 2px;
+            background: #fff;
+            transition: transform .3s @ease-in-out;
+          }
+          &:after {
+            transform: rotate(45deg) translateX(-2px);
+          }
+          &:before {
+            transform: rotate(-45deg) translateX(2px);
+          }
+          transition: transform .3s @ease-in-out;
+        }
+      }
+    }
+    > .@{prefixCls}-item-disabled > .@{prefixCls}-header {
+      cursor: not-allowed;
+      color: #999;
+      background-color: #f3f3f3;
+    }
+    .@{prefixCls}-content {
+      // overflow: hidden;
+      color: @edit-list-text-color;
+      padding: 1px 12px;
+      background-color: @bgColor;
+      border-top: none;
+      >.@{prefixCls}-content-box {
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      &-inactive {
+        display: none;
+      }
+    }
+    >.@{prefixCls}-item-active {
+      >.@{prefixCls}-header {
+        border-bottom-color: #000;
+        .@{prefixCls}-arrow {
+          transform: translateY(-3px);
+          &:after {
+            transform: rotate(-45deg) translateX(-2px);
+          }
+          &:before {
+            transform: rotate(45deg) translateX(2px);
+          }
+        }
+      }
+    }
+  }
+}
