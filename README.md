@@ -18,7 +18,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Ecommerce Website](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Ecommerce%20Website)
 
-[Landing Page]
+[Landing Page](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Landing%20Page)
 
 [Password Generator]
 
