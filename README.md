@@ -14,7 +14,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Qr Code Reader](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Qr%20Code%20Reader)
 
-[Weather App]
+[Weather App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Weather%20App)
 
 [Ecommerce Website]
 
