@@ -20,7 +20,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Landing Page](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Landing%20Page)
 
-[Password Generator]
+[Password Generator](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Password%20Generator)
 
 [Tic Tac Toe Game]
 
