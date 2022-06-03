@@ -77,7 +77,3 @@ This project is about 40 projects that a web developer at least once in his life
 [Random User Api]
 
 [Typing Speed Test]
-
-<p>Dale un vistazo al proyecto 1/40 <a href="https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Calculator" target="_blank"> Calculator </a>.</p>
-
-
