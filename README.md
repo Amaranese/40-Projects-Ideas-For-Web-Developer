@@ -38,7 +38,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Suervey App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Suervey%20App)
 
-[E-book Site]
+[E-book Site](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/E-book%20Site)
 
 [Instagram Clone]
 
