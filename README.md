@@ -36,7 +36,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Twitter Clone](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Twitter%20Clone)
 
-[Suervey App]
+[Suervey App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Suervey%20App)
 
 [E-book Site]
 
