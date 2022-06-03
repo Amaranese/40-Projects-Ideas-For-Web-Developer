@@ -32,7 +32,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Movie App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Movie%20App)
 
-[Chat App]
+[Chat App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Chat%20App)
 
 [Twitter Clone]
 
