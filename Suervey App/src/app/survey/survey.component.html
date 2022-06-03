@@ -1,0 +1,76 @@
+<div class="card mt-4">
+    <h4 class="card-header">survey</h4>
+    <div class="card-body">
+      <div id="survey">
+	<!-- <form id="survey-form" action=""> -->
+		<div id="name-field" class="field">
+			<label id="name-label" for="name" class="labels">Name:</label>
+			<input id="name" class="inputs" placeholder="Enter your name" type="text" required/>
+    </div>
+			<div id="email-field" class="field">
+				<label id="email-label" for="email" class="labels">Email:</label>
+				<input id="email" class="inputs" placeholder="Enter your email" type="email" required/>
+    </div>
+				<div id="number-field" class="field">
+					<label id="number-label" for="number" class="labels">Number:</label>
+					<input id="number" class="inputs" placeholder="Enter your phone number" type="number" min="1000000" max="100000000000000"  required/>
+    </div>
+					<div id="dropdown-field" class="field">
+						<label id="dropdown-label" class="labels">Ear preference:</label>
+						<select id="dropdown" class="inputs">
+        <option disabled selected>Select an option</option>
+        <option>Lop</option>
+        <option>Upright</option>
+        <option>No preference</option>
+      </select>
+					</div>
+					<div id="radio-field" class="field">
+						<label id="radio-label" class="labels">Preferred gender:</label>
+						<div id="left-side-radio-field" class="inputs">
+							<label class="radio-button-label">
+          <input type="radio" name="gender">Male
+        </label>
+							<label class="radio-button-label">
+          <input type="radio" name="gender">Female
+        </label>
+						</div>
+					</div>
+					<div id="checkbox-field" class="field">
+						<label id="checkbox-label" class="labels">Preferred sizes:</label>
+						<div id="left-side-checkbox-field" class="inputs">
+							<label class="checkbox-button-label">
+          <input type="checkbox" name="size">Baby
+        </label>
+							<label class="checkbox-button-label">
+          <input type="checkbox" name="size">Dwarf
+        </label>
+							<label class="radio-button-label">
+          <input type="checkbox" name="size">Medium
+        </label>
+							<label class="checkbox-button-label">
+          <input type="checkbox" name="size">Large
+        </label>
+							<label class="checkbox-button-label">
+          <input type="checkbox" name="size">Giant
+        </label>
+						</div>
+					</div>
+					<div id="textarea-field" class="field">
+						<label class="labels">Do you have any more preferences?</label>
+						<textarea id="textarea" placeholder="Enter your comment here..." >
+              </textarea>
+					</div>
+          <div id="checkbox-field" class="field">
+            	<label class="labels">Your Rating</label>
+              <!-- <app-rating-star></app-rating-star> -->
+
+          </div>
+					<div id="submit-field" class="field">
+						<button id="submit" type="submit">Submit</button>
+					</div>
+	<!-- </form> -->
+</div>
+
+
+    </div>
+</div>
