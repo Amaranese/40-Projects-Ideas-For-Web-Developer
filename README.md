@@ -44,7 +44,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [WhatsApp Clone](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/WhatsApp%20Clone)
 
-[Netflix Clone]
+[Netflix Clone](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Netflix%20Clone)
 
 [File Sharing App]
 
@@ -77,4 +77,3 @@ This project is about 40 projects that a web developer at least once in his life
 [Random User Api]
 
 [Typing Speed Test]
-
