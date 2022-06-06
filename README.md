@@ -48,7 +48,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [File Sharing App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/File%20Sharing%20App)
 
-[Parallax Website]
+[Parallax Website](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Parallax%20Website)
 
 [Job Search App]
 
