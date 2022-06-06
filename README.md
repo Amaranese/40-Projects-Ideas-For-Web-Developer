@@ -76,4 +76,4 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Random User Api](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Random%20User%20Api)
 
-[Typing Speed Test](blank:#https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Typing%20Speed%20Test)
+[Typing Speed Test](blank:#"https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Typing%20Speed%20Test")
