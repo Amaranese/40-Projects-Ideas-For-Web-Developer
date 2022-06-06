@@ -52,7 +52,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Job Search App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Job%20Search%20App)
 
-[Pinterest Clone]
+[Pinterest Clone](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Pinterest%20Clone)
 
 [Dating App]
 
