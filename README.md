@@ -70,7 +70,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Chess Game](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Chess%20Game)
 
-[Music Player]
+[Music Player](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Music%20Player)
 
 [To-Do List App]
 
