@@ -58,7 +58,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Social Media Dashboard](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Social%20Media%20Dashboard)
 
-[Tracker App]
+[Tracker App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Tracker%20App)
 
 [Memory App]
 
