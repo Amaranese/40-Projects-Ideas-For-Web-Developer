@@ -60,7 +60,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Tracker App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Tracker%20App)
 
-[Memory App]
+[Memory App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Memory%20App)
 
 [Giphy Clone]
 
