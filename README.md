@@ -74,6 +74,6 @@ This project is about 40 projects that a web developer at least once in his life
 
 [To-Do List App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/To-Do%20List%20App)
 
-[Random User Api]
+[Random User Api](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Random%20User%20Api)
 
 [Typing Speed Test]
