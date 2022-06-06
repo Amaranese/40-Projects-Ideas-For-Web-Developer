@@ -62,7 +62,7 @@ This project is about 40 projects that a web developer at least once in his life
 
 [Memory App](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Memory%20App)
 
-[Giphy Clone]
+[Giphy Clone](https://github.com/Amaranese/40-Projects-Ideas-For-Web-Developer/tree/main/Giphy%20Clone)
 
 [User Activity Tracker]
 
