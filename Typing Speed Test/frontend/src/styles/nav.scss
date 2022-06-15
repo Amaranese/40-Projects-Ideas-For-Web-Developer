@@ -1,0 +1,219 @@
+#menu {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--sub-color);
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.5rem;
+  // margin-bottom: -0.4rem;
+  width: fit-content;
+  width: -moz-fit-content;
+
+  .text-button {
+    .text {
+      font-size: 0.65rem;
+      line-height: 1rem;
+      align-self: center;
+      margin-left: 0.25rem;
+    }
+
+    .icon {
+      width: 1.25rem;
+      height: 1.25rem;
+      // background: red;
+      display: grid;
+      place-content: center center;
+    }
+
+    &.account {
+      .icon,
+      .avatar {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      .avatar {
+        transition: opacity 0.125s, filter 0.125s, webkit-filter 0.125s;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 100%;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        filter: saturate(0);
+        -webkit-filter: saturate(0);
+      }
+    }
+
+    &:hover.account .avatar {
+      filter: saturate(1);
+      -webkit-filter: saturate(1);
+    }
+  }
+
+  .separator {
+    width: 2px;
+    height: 1rem;
+    background-color: var(--sub-color);
+  }
+}
+
+#top.focus #menu .text-button.discord::after {
+  background: transparent;
+}
+
+#top.focus #menu {
+  color: transparent !important;
+}
+
+#top.focus #menu .text-button {
+  color: transparent !important;
+}
+
+#top.focus #menu .text-button.account .avatar {
+  opacity: 0 !important;
+}
+
+#top {
+  grid-template-areas: "logo menu config";
+  line-height: 2.3rem;
+  font-size: 2.3rem;
+  /* text-align: center; */
+  // transition: 0.25s;
+  padding: 0 5px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr auto;
+  z-index: 2;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+
+  .logo {
+    // margin-bottom: 0.6rem;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+
+    .icon {
+      width: 2.5rem;
+      display: grid;
+      align-items: center;
+      background-color: transparent;
+      // margin-bottom: 0.15rem;
+      svg path {
+        transition: 0.25s;
+        fill: var(--main-color);
+      }
+    }
+    .text {
+      .top {
+        position: absolute;
+        left: 0.25rem;
+        top: -0.1rem;
+        font-size: 0.65rem;
+        line-height: 0.65rem;
+        color: var(--sub-color);
+        transition: 0.25s;
+      }
+      position: relative;
+      font-size: 2rem;
+      margin-bottom: 0.4rem;
+      font-family: "Lexend Deca";
+      transition: 0.25s;
+    }
+    white-space: nowrap;
+    user-select: none;
+
+    .bottom {
+      margin-left: -0.15rem;
+      color: var(--main-color);
+      transition: 0.25s;
+      cursor: pointer;
+    }
+  }
+
+  .config {
+    grid-area: config;
+    transition: 0.125s;
+    .mobileConfig {
+      display: none;
+      .text-button {
+        margin-right: -1rem;
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+      }
+    }
+
+    .desktopConfig {
+      justify-self: right;
+      display: grid;
+      // grid-auto-flow: row;
+      grid-template-rows: 0.7rem 0.7rem 0.7rem;
+      grid-gap: 0.2rem;
+      // width: min-content;
+      // width: -moz-min-content;
+      // transition: 0.25s;
+      /*   margin-bottom: 0.1rem; */
+      justify-items: self-end;
+
+      .group {
+        // transition: 0.25s;
+
+        .title {
+          color: var(--sub-color);
+          font-size: 0.5rem;
+          line-height: 0.5rem;
+          margin-bottom: 0.15rem;
+        }
+
+        .buttons {
+          display: flex;
+          .text-button {
+            font-size: 0.7rem;
+            line-height: 0.7rem;
+            padding: 0px 0.15rem;
+          }
+        }
+        &.disabled {
+          pointer-events: none;
+          opacity: 0.25;
+        }
+      }
+
+      .punctuationMode {
+        margin-bottom: -0.1rem;
+      }
+
+      .numbersMode {
+        margin-bottom: -0.1rem;
+      }
+    }
+  }
+  //top focus
+  &.focus {
+    color: var(--sub-color) !important;
+
+    .result {
+      opacity: 0 !important;
+    }
+
+    .icon svg path {
+      fill: var(--sub-color) !important;
+    }
+
+    .logo .text {
+      color: var(--sub-color) !important;
+      // opacity: 0 !important;
+    }
+
+    .logo .top {
+      opacity: 0 !important;
+    }
+
+    .config {
+      opacity: 0 !important;
+    }
+  }
+}
