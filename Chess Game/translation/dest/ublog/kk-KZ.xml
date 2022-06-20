@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="xBlog">%s блогі</string>
+  <string name="newPost">Жаңа жазба</string>
+  <string name="editYourBlogPost">Жазбаңызды өзгерту</string>
+</resources>

@@ -1,0 +1,35 @@
+{
+  "name": "ceval",
+  "version": "2.0.0",
+  "private": true,
+  "description": "lichess.org local computer analysis",
+  "type": "module",
+  "module": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "keywords": [
+    "chess",
+    "lichess",
+    "play",
+    "replay"
+  ],
+  "author": "Thibault Duplessis",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "compile": "tsc --incremental",
+    "dev": "$npm_execpath run compile",
+    "prod": "$npm_execpath run compile"
+  },
+  "devDependencies": {
+    "@types/cash": "8.0.0",
+    "@types/lichess": "2.0.0",
+    "@types/web": "^0",
+    "typescript": "^4"
+  },
+  "dependencies": {
+    "@badrap/result": "^0.2",
+    "chessops": "^0.12",
+    "common": "2.0.0",
+    "idb-keyval": "^6.1.0",
+    "snabbdom": "^3.3.1"
+  }
+}

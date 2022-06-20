@@ -1,0 +1,37 @@
+@import 'topnav-hidden';
+@import 'topnav-visible';
+@import 'title';
+@import 'buttons';
+
+#top {
+  height: $site-header-height;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: z('site-header');
+  max-width: 1800px;
+  margin: 0 auto;
+  user-select: none;
+  --dropdown-top: 40px;
+
+  @include breakpoint($mq-site-header-tall) {
+    --dropdown-top: 60px;
+  }
+}
+
+#topnav a[href='/patron'] {
+  @extend %flex-center;
+  &::after {
+    @extend %data-icon;
+    content: '';
+    font-size: 1.3em;
+    color: $c-brag;
+    margin: 0 0 0.08ch 0.3ch;
+    transform: scaleX(-1);
+  }
+}
+
+.site-title-nav {
+  display: flex;
+  justify-content: flex-start;
+}

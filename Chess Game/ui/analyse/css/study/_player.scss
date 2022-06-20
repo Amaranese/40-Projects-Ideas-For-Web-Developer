@@ -1,0 +1,131 @@
+@import '../../../common/css/component/material';
+
+$player-height: 1.6rem;
+
+.analyse.has-players {
+  cg-board {
+    border-radius: 0;
+  }
+
+  @include breakpoint($mq-col2) {
+    .analyse__underboard {
+      margin-top: calc(#{$player-height / 2} + #{$block-gap / 2});
+    }
+  }
+
+  @include breakpoint($mq-col1) {
+    .analyse__controls {
+      margin-top: $player-height;
+    }
+  }
+}
+
+.study__player {
+  @extend %flex-between-nowrap, %metal, %box-shadow;
+
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  width: var(--cg-width, 100%);
+  height: $player-height;
+  white-space: nowrap;
+
+  &-top {
+    @extend %box-radius-top;
+
+    top: #{-$player-height};
+
+    .is3d & {
+      @extend %box-radius;
+
+      top: calc(#{-$player-height} - 35px);
+    }
+  }
+
+  &-bot {
+    @extend %box-radius-bottom;
+
+    top: var(--cg-height, 100%);
+  }
+
+  .left {
+    flex: 1 1 100%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .result {
+    flex: 0 0 auto;
+    margin-left: 0.8em;
+    padding-right: 0.8em;
+    border-right: $border;
+  }
+
+  .analyse__clock {
+    @extend %roboto, %flex-center-nowrap;
+
+    height: 100%;
+    font-size: 1.2em;
+    padding: 0 0.8em 0 0.4em;
+    border-radius: 0 4px 0 0;
+    box-shadow: none;
+  }
+
+  &-bot .analyse__clock {
+    border-radius: 0 0 4px 0;
+  }
+
+  &.ticking .analyse__clock {
+    background: $c-secondary;
+    color: $c-secondary-over;
+    text-shadow: none;
+  }
+
+  .info {
+    margin-left: 10px;
+    display: flex;
+    overflow: hidden;
+
+    > * {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: fit-content;
+      flex: 1;
+    }
+  }
+
+  .name {
+    margin-left: 0.5ch;
+    flex: 3;
+  }
+
+  .elo {
+    margin-left: 0.5em;
+    font-weight: normal;
+  }
+}
+
+.material {
+  padding: 0 6px;
+
+  mpiece {
+    width: 20px;
+    height: 20px;
+
+    &.pawn {
+      margin-left: -10px;
+    }
+  }
+
+  score {
+    color: #777;
+  }
+}
+
+.material-top {
+  margin-top: 0.2em;
+}
+
+.material-bottom {
+  margin-top: 0.15em;
+}
